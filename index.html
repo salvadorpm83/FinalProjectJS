@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload = "agregarTabIndex()">
+
+	<main>
+
+	<h1>Photo Gallery</h1>
+
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+
+	<img class = "preview" alt = "Patinando en el Canal Rideau" src = "img/canal-rideau.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" alt = "El lago Louise congelado" src = "img/lago-louise.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" alt = "Aurora boreal sobre el bosque" src = "img/aurora-boreal.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" alt = "Casa con nieve cerca de Quebec" src = "img/casas-con-nieve.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" alt = "Montañas nevadas en Alberta" src = "img/montanas-nevadas.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	<img class = "preview" alt = "Bosque cubierto de nieve en Ontario" src = "img/bosque-nevado.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()">
+
+	</main>
+
+</body>
+</html>
